@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    background-color: #333;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+/* sidebar */
+.sidebar {
+   height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 16px;
+}
+
+
+.sidebar a:hover {
+    color: #2f2f2f;
+}
+
+.sidebar a {
+    border: none;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 2.5px;
+    background-color: black;
+    color: whitesmoke;
+    width: 160px;
+}
+
+.secondsidebar {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    right: 0;
+    background-color: #1c1c1c;
+    margin-right: 0px;
+}
+
+.secondsidebar a {
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #1c1c1c;
+    color: whitesmoke;
+    width: 160px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+.secondsidebar a:hover {
+    color: #2f2f2f;
+}
+
+.secondsidebar .greeting {
+    text-align: left;
+    margin-left: 20px;
+    float: center;
+    font-size: 25px;
+}
+
+/* content*/
+div.content {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+
+
+}
+
+div.content .right {
+  float: left;
+  padding: 10px 20px 10px 20px;
+  height: 100%;
+  color: whitesmoke;
+  width: 50%;
+
+}
+
+div.content .left {
+  float: left;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 10px 10px 15px 25px;
+    height: 100%;
+    width: 25%;
+    background-color: #242424;
+    opacity: 70%;
+}
+
+div.content .left img, div.content .right img {
+  width:180px;
+  height: 180px;
+  border: solid whitesmoke 5px;
+  border-radius: 5px;
+  float: center;
+  margin-top: 10px;
+}
+
+
+
+div.content .right .desc, div.content .left .desc, div.content .desc{
+  border: solid #d4d4d4 2px;
+  padding: 10px;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  color: #242424;
+  font-size: 13px;
+  width: 75%;
+}
+
+
+div.content a, input[type="submit"], button{
+  text-decoration: none;
+  font-size: 15px;
+  background-color: darkgray;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: solid gray;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 5px 15px 5px 15px;
+}
+
+.content a:hover, input[type="submit"]:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+.content form {
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+  border: 5px;
+  border-color: whitesmoke;
+
+}
+
+.content form input[type="submit"]{
+  background-color: darkgray;
+  width: 180px;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 5px;
+
+}
+
+.content form input[type="text"], form input[type="password"]{
+  background-color: white;
+  text-align: left;
+  color: black;
+  border-radius: 5px;
+
+}
+
+
+.error {
+    margin-bottom: 100px auto;
+    padding: 10px;
+    border: 2px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    left: 250px;
+    right: 250px;
+}
+
+
+.input_form {
+    left: 30px;
+    width: 60%;
+}
+
+.input-group {
+    margin: 10px 10px 10px 10px;
+}
+
+.input-group label {
+    display: block;
+    width: 150px;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 25px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+.input-group button{
+    padding: 8px;
+    font-size: 13px;
+    color: white;
+    background: darkgray;
+    border-radius: 5px;
+    border: solid gray;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.input-group a {
+  text-decoration: none;
+    padding: 8px;
+    font-size: 13px;
+    color: white;
+    background: darkgray;
+    border-radius: 5px;
+    border: solid gray;
+}
+
+/* footer */
+
+.footer {
+  height: 40px;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: black;
+   padding-top: 16px;
+}
+
+.footer a {
+  float: center;
+  margin-left: 170px;
+  margin-right: 170px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footer a:hover {
+    color: #2f2f2f;
+}
+
+/* login/register */
+div.login_content {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    height: 50%;
+    background-color: #242424;
+    opacity: 70%;
+    border-radius: 10px;
+    border: solid darkgray;
+
+}
+
+th, td {
+  padding: 5px 15px;
+  text-align: left;
+}
